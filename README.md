@@ -23,7 +23,7 @@ What it does is following the next algorithm:
 ```
 1.  Extract the Ethernet header.
 2.  Parse the next header as it were for IPv4.
-3.  Check the checksum and the TTL.
+3.  Verify checksum and TTL.
 4.  Update TTL.
 5.  Search the IP inside the routing table.
 6.  Update checksum.
